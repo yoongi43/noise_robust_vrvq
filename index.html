@@ -438,127 +438,6 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p102_00313/noisy.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p102_00313/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p102_00313/clean.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p102_00313/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00313/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.31</td>
-                        <td>-2.92</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00313/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00313/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.22</td>
-                        <td>1.25</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00313/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>0.23</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00313/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00313/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.83</td>
-                        <td>1.2</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00313/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.56</td>
-                        <td>1.11</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00313/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00313/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.26</td>
-                        <td>1.18</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00313/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.19</td>
-                        <td>1.48</td>
-                        <td>6.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00313/level_6.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00313/level_6.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.37</td>
-                        <td>1.18</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <h3 class="sample-title-sub">Sample 3</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
                             <source src="static/samples/CBR_feat_denoise_16k/p102_00327/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
@@ -668,7 +547,7 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 4</h3>
+        <h3 class="sample-title-sub">Sample 3</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -680,19 +559,19 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p102_00515/noisy.wav" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_16k/p102_00870/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p102_00515/noisy_spec.png" alt="Noisy spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p102_00870/noisy_spec.png" alt="Noisy spectrogram">
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p102_00515/clean.wav" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_16k/p102_00870/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p102_00515/clean_spec.png" alt="Clean spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p102_00870/clean_spec.png" alt="Clean spectrogram">
                     </td>
                 </tr>
                 <tr>
@@ -717,73 +596,194 @@
                     <tr>
                         <td>1</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00515/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00870/CBR_Codebook_01/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.31</td>
-                        <td>-4.18</td>
+                        <td>-4.52</td>
                         <td>1.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00515/level_1.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p102_00870/level_1.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00515/level_1.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00870/level_1.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.64</td>
-                        <td>7.33</td>
+                        <td>1.88</td>
+                        <td>7.66</td>
                     </tr>
                     <!-- 1-st: 3codebook for CBR-->
                     <tr>
                         <td>3</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00515/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00870/CBR_Codebook_03/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.94</td>
-                        <td>3.08</td>
+                        <td>3.79</td>
                         <td>2.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00515/level_2.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p102_00870/level_2.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00515/level_2.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00870/level_2.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.94</td>
-                        <td>7.58</td>
+                        <td>2.26</td>
+                        <td>7.82</td>
                     </tr>
                     <!-- 2-nd: 5codebook for CBR-->
                     <tr>
                         <td>5</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00515/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00870/CBR_Codebook_05/recons.wav" controls type="audio/wav">
                         </td>
                         <td>1.56</td>
-                        <td>6.15</td>
+                        <td>6.34</td>
                         <td>4.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00515/level_4.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p102_00870/level_4.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00515/level_4.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00870/level_4.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>2.1</td>
-                        <td>7.66</td>
+                        <td>2.39</td>
+                        <td>7.85</td>
                     </tr>
                     <!-- 3-rd: 7codebook for CBR-->
                     <tr>
                         <td>7</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00515/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p102_00870/CBR_Codebook_07/recons.wav" controls type="audio/wav">
                         </td>
                         <td>2.19</td>
-                        <td>7.54</td>
+                        <td>7.42</td>
                         <td>6.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p102_00515/level_6.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p102_00870/level_6.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00515/level_6.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p102_00870/level_6.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>2.16</td>
-                        <td>7.67</td>
+                        <td>2.41</td>
+                        <td>7.87</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h3 class="sample-title-sub">Sample 4</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p103_00647/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p103_00647/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p103_00647/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p103_00647/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00647/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.31</td>
+                        <td>-3.28</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00647/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00647/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.49</td>
+                        <td>9.32</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00647/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>5.34</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00647/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00647/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.76</td>
+                        <td>9.5</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00647/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.56</td>
+                        <td>8.25</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00647/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00647/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.89</td>
+                        <td>9.51</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00647/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.19</td>
+                        <td>9.33</td>
+                        <td>6.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00647/level_6.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00647/level_6.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.95</td>
+                        <td>9.51</td>
                     </tr>
                 </tbody>
             </table>
@@ -801,19 +801,19 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p103_00047/noisy.wav" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_16k/p103_00693/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p103_00047/noisy_spec.png" alt="Noisy spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p103_00693/noisy_spec.png" alt="Noisy spectrogram">
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p103_00047/clean.wav" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_16k/p103_00693/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p103_00047/clean_spec.png" alt="Clean spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p103_00693/clean_spec.png" alt="Clean spectrogram">
                     </td>
                 </tr>
                 <tr>
@@ -838,73 +838,73 @@
                     <tr>
                         <td>1</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00047/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00693/CBR_Codebook_01/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.31</td>
-                        <td>4.34</td>
+                        <td>-2.57</td>
                         <td>1.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p103_00047/level_1.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00693/level_1.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00047/level_1.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00693/level_1.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>0.86</td>
-                        <td>6.11</td>
+                        <td>1.21</td>
+                        <td>8.22</td>
                     </tr>
                     <!-- 1-st: 3codebook for CBR-->
                     <tr>
                         <td>3</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00047/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00693/CBR_Codebook_03/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.94</td>
-                        <td>6.26</td>
+                        <td>3.88</td>
                         <td>2.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p103_00047/level_2.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00693/level_2.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00047/level_2.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00693/level_2.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.35</td>
-                        <td>6.4</td>
+                        <td>1.4</td>
+                        <td>8.45</td>
                     </tr>
                     <!-- 2-nd: 5codebook for CBR-->
                     <tr>
                         <td>5</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00047/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00693/CBR_Codebook_05/recons.wav" controls type="audio/wav">
                         </td>
                         <td>1.56</td>
-                        <td>6.75</td>
+                        <td>6.83</td>
                         <td>4.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p103_00047/level_4.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00693/level_4.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00047/level_4.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00693/level_4.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.84</td>
-                        <td>6.72</td>
+                        <td>1.56</td>
+                        <td>8.46</td>
                     </tr>
                     <!-- 3-rd: 7codebook for CBR-->
                     <tr>
                         <td>7</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00047/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p103_00693/CBR_Codebook_07/recons.wav" controls type="audio/wav">
                         </td>
                         <td>2.19</td>
-                        <td>6.86</td>
+                        <td>7.75</td>
                         <td>6.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p103_00047/level_6.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p103_00693/level_6.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00047/level_6.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p103_00693/level_6.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>2.03</td>
-                        <td>6.79</td>
+                        <td>1.63</td>
+                        <td>8.49</td>
                     </tr>
                 </tbody>
             </table>
@@ -922,19 +922,19 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p104_00465/noisy.wav" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_16k/p105_00260/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p104_00465/noisy_spec.png" alt="Noisy spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p105_00260/noisy_spec.png" alt="Noisy spectrogram">
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p104_00465/clean.wav" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_16k/p105_00260/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p104_00465/clean_spec.png" alt="Clean spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p105_00260/clean_spec.png" alt="Clean spectrogram">
                     </td>
                 </tr>
                 <tr>
@@ -959,321 +959,79 @@
                     <tr>
                         <td>1</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p104_00465/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00260/CBR_Codebook_01/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.31</td>
-                        <td>-4.01</td>
+                        <td>-4.08</td>
                         <td>1.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p104_00465/level_1.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00260/level_1.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p104_00465/level_1.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00260/level_1.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.41</td>
-                        <td>7.18</td>
+                        <td>1.87</td>
+                        <td>6.86</td>
                     </tr>
                     <!-- 1-st: 3codebook for CBR-->
                     <tr>
                         <td>3</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p104_00465/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00260/CBR_Codebook_03/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.94</td>
-                        <td>1.34</td>
+                        <td>2.52</td>
                         <td>2.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p104_00465/level_2.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00260/level_2.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p104_00465/level_2.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00260/level_2.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.68</td>
-                        <td>7.33</td>
+                        <td>2.16</td>
+                        <td>7.01</td>
                     </tr>
                     <!-- 2-nd: 5codebook for CBR-->
                     <tr>
                         <td>5</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p104_00465/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00260/CBR_Codebook_05/recons.wav" controls type="audio/wav">
                         </td>
                         <td>1.56</td>
-                        <td>6.09</td>
+                        <td>5.35</td>
                         <td>4.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p104_00465/level_4.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00260/level_4.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p104_00465/level_4.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00260/level_4.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.84</td>
-                        <td>7.41</td>
+                        <td>2.28</td>
+                        <td>7.01</td>
                     </tr>
                     <!-- 3-rd: 7codebook for CBR-->
                     <tr>
                         <td>7</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p104_00465/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00260/CBR_Codebook_07/recons.wav" controls type="audio/wav">
                         </td>
                         <td>2.19</td>
-                        <td>7.2</td>
+                        <td>6.58</td>
                         <td>6.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p104_00465/level_6.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00260/level_6.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p104_00465/level_6.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00260/level_6.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.91</td>
-                        <td>7.41</td>
+                        <td>2.33</td>
+                        <td>7.02</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         
         <h3 class="sample-title-sub">Sample 7</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p105_00301/noisy.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p105_00301/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p105_00301/clean.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p105_00301/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00301/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.31</td>
-                        <td>-1.49</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00301/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00301/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.43</td>
-                        <td>8.53</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00301/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>5.6</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00301/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00301/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.77</td>
-                        <td>8.9</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00301/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.56</td>
-                        <td>7.82</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00301/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00301/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.93</td>
-                        <td>8.97</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00301/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.19</td>
-                        <td>8.77</td>
-                        <td>6.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00301/level_6.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00301/level_6.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.98</td>
-                        <td>8.97</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <h3 class="sample-title-sub">Sample 8</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p105_00393/noisy.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p105_00393/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p105_00393/clean.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p105_00393/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00393/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.31</td>
-                        <td>-0.19</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00393/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00393/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.95</td>
-                        <td>3.7</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00393/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>3.14</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00393/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00393/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.29</td>
-                        <td>4.26</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00393/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.56</td>
-                        <td>4.55</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00393/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00393/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.49</td>
-                        <td>4.56</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00393/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.19</td>
-                        <td>4.87</td>
-                        <td>6.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p105_00393/level_6.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00393/level_6.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.54</td>
-                        <td>4.63</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <h3 class="sample-title-sub">Sample 9</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -1394,7 +1152,7 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 10</h3>
+        <h3 class="sample-title-sub">Sample 8</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -1515,7 +1273,128 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 11</h3>
+        <h3 class="sample-title-sub">Sample 9</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p105_00884/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p105_00884/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p105_00884/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p105_00884/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00884/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.31</td>
+                        <td>-0.47</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00884/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00884/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.17</td>
+                        <td>9.55</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00884/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>6.32</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00884/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00884/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.41</td>
+                        <td>9.87</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00884/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.56</td>
+                        <td>8.33</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00884/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00884/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.57</td>
+                        <td>9.9</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p105_00884/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.19</td>
+                        <td>9.5</td>
+                        <td>6.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p105_00884/level_6.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p105_00884/level_6.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.64</td>
+                        <td>9.91</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h3 class="sample-title-sub">Sample 10</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -1636,7 +1515,7 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 12</h3>
+        <h3 class="sample-title-sub">Sample 11</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -1757,7 +1636,249 @@
             </table>
         </div>
         
+        <h3 class="sample-title-sub">Sample 12</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p106_00502/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p106_00502/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p106_00502/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p106_00502/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p106_00502/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.31</td>
+                        <td>-7.69</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p106_00502/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p106_00502/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.6</td>
+                        <td>9.26</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p106_00502/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>4.36</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p106_00502/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p106_00502/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.89</td>
+                        <td>9.48</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p106_00502/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.56</td>
+                        <td>7.79</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p106_00502/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p106_00502/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.05</td>
+                        <td>9.51</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p106_00502/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.19</td>
+                        <td>8.84</td>
+                        <td>6.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p106_00502/level_6.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p106_00502/level_6.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.11</td>
+                        <td>9.52</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
         <h3 class="sample-title-sub">Sample 13</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p107_00132/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p107_00132/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_16k/p107_00132/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_16k/p107_00132/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00132/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.31</td>
+                        <td>-0.55</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p107_00132/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00132/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.13</td>
+                        <td>7.95</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00132/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>5.92</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p107_00132/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00132/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.4</td>
+                        <td>8.27</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00132/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.56</td>
+                        <td>7.78</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p107_00132/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00132/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.55</td>
+                        <td>8.37</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00132/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.19</td>
+                        <td>8.49</td>
+                        <td>6.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_16k/p107_00132/level_6.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00132/level_6.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.61</td>
+                        <td>8.41</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h3 class="sample-title-sub">Sample 14</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -1873,127 +1994,6 @@
                         </td>
                         <td>1.77</td>
                         <td>5.94</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <h3 class="sample-title-sub">Sample 14</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p107_00625/noisy.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p107_00625/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="static/samples/CBR_feat_denoise_16k/p107_00625/clean.wav" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_16k/p107_00625/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00625/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.31</td>
-                        <td>0.78</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p107_00625/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00625/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.71</td>
-                        <td>11.14</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00625/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>7.51</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p107_00625/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00625/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.08</td>
-                        <td>11.51</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00625/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.56</td>
-                        <td>10.38</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p107_00625/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00625/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.28</td>
-                        <td>11.54</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_16k/p107_00625/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.19</td>
-                        <td>11.41</td>
-                        <td>6.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_16k/p107_00625/level_6.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_16k/p107_00625/level_6.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.34</td>
-                        <td>11.55</td>
                     </tr>
                 </tbody>
             </table>
@@ -2142,7 +2142,7 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p102_00077/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -2150,7 +2150,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p102_00077/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -2263,128 +2263,7 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p102_00313/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p102_00313/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00313/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>-0.49</td>
-                        <td>0.5</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00313/level_0.50/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00313/level_0.50/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.31</td>
-                        <td>1.95</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00313/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.81</td>
-                        <td>1.96</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00313/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00313/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>3.79</td>
-                        <td>3.35</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00313/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>4.69</td>
-                        <td>3.28</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00313/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00313/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>5.27</td>
-                        <td>3.75</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00313/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>6.56</td>
-                        <td>3.88</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00313/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00313/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>6.03</td>
-                        <td>3.72</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <h3 class="sample-title-sub">Sample 3</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p102_00327/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -2392,7 +2271,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p102_00327/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -2493,7 +2372,7 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 4</h3>
+        <h3 class="sample-title-sub">Sample 3</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -2505,19 +2384,19 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p102_00870/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p102_00515/noisy_spec.png" alt="Noisy spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p102_00870/noisy_spec.png" alt="Noisy spectrogram">
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p102_00870/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p102_00515/clean_spec.png" alt="Clean spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p102_00870/clean_spec.png" alt="Clean spectrogram">
                     </td>
                 </tr>
                 <tr>
@@ -2542,73 +2421,194 @@
                     <tr>
                         <td>1</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00515/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00870/CBR_Codebook_01/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.94</td>
-                        <td>-0.08</td>
+                        <td>1.31</td>
                         <td>0.5</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00515/level_0.50/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p102_00870/level_0.50/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00515/level_0.50/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00870/level_0.50/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>2.48</td>
-                        <td>7.41</td>
+                        <td>2.56</td>
+                        <td>6.73</td>
                     </tr>
                     <!-- 1-st: 3codebook for CBR-->
                     <tr>
                         <td>3</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00515/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00870/CBR_Codebook_03/recons.wav" controls type="audio/wav">
                         </td>
                         <td>2.81</td>
-                        <td>6.07</td>
+                        <td>6.5</td>
                         <td>1.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00515/level_1.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p102_00870/level_1.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00515/level_1.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00870/level_1.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>4.14</td>
-                        <td>9.73</td>
+                        <td>4.34</td>
+                        <td>8.78</td>
                     </tr>
                     <!-- 2-nd: 5codebook for CBR-->
                     <tr>
                         <td>5</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00515/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00870/CBR_Codebook_05/recons.wav" controls type="audio/wav">
                         </td>
                         <td>4.69</td>
-                        <td>8.58</td>
+                        <td>8.13</td>
                         <td>2.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00515/level_2.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p102_00870/level_2.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00515/level_2.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00870/level_2.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>5.22</td>
-                        <td>10.17</td>
+                        <td>5.61</td>
+                        <td>9.34</td>
                     </tr>
                     <!-- 3-rd: 7codebook for CBR-->
                     <tr>
                         <td>7</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00515/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p102_00870/CBR_Codebook_07/recons.wav" controls type="audio/wav">
                         </td>
                         <td>6.56</td>
-                        <td>9.67</td>
+                        <td>9.22</td>
                         <td>4.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p102_00515/level_4.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p102_00870/level_4.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00515/level_4.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p102_00870/level_4.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>5.82</td>
-                        <td>10.23</td>
+                        <td>6.24</td>
+                        <td>9.43</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h3 class="sample-title-sub">Sample 4</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p103_00647/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p103_00647/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p103_00647/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p103_00647/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00647/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>2.62</td>
+                        <td>0.5</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00647/level_0.50/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00647/level_0.50/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.26</td>
+                        <td>8.92</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00647/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.81</td>
+                        <td>8.27</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00647/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00647/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>3.66</td>
+                        <td>11.11</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00647/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.69</td>
+                        <td>9.87</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00647/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00647/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.68</td>
+                        <td>11.75</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00647/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>6.56</td>
+                        <td>11.35</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00647/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00647/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>5.21</td>
+                        <td>11.86</td>
                     </tr>
                 </tbody>
             </table>
@@ -2626,19 +2626,19 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p103_00693/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p103_00047/noisy_spec.png" alt="Noisy spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p103_00693/noisy_spec.png" alt="Noisy spectrogram">
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p103_00693/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p103_00047/clean_spec.png" alt="Clean spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p103_00693/clean_spec.png" alt="Clean spectrogram">
                     </td>
                 </tr>
                 <tr>
@@ -2663,73 +2663,73 @@
                     <tr>
                         <td>1</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00047/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00693/CBR_Codebook_01/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.94</td>
-                        <td>6.58</td>
+                        <td>1.37</td>
                         <td>0.5</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p103_00047/level_0.50/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00693/level_0.50/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00047/level_0.50/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00693/level_0.50/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>1.85</td>
-                        <td>8.27</td>
+                        <td>1.99</td>
+                        <td>7.25</td>
                     </tr>
                     <!-- 1-st: 3codebook for CBR-->
                     <tr>
                         <td>3</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00047/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00693/CBR_Codebook_03/recons.wav" controls type="audio/wav">
                         </td>
                         <td>2.81</td>
-                        <td>8.5</td>
+                        <td>7.09</td>
                         <td>1.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p103_00047/level_1.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00693/level_1.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00047/level_1.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00693/level_1.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>2.83</td>
-                        <td>9.71</td>
+                        <td>3.0</td>
+                        <td>9.17</td>
                     </tr>
                     <!-- 2-nd: 5codebook for CBR-->
                     <tr>
                         <td>5</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00047/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00693/CBR_Codebook_05/recons.wav" controls type="audio/wav">
                         </td>
                         <td>4.69</td>
-                        <td>9.77</td>
+                        <td>8.77</td>
                         <td>2.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p103_00047/level_2.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00693/level_2.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00047/level_2.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00693/level_2.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>4.17</td>
-                        <td>10.54</td>
+                        <td>3.65</td>
+                        <td>9.62</td>
                     </tr>
                     <!-- 3-rd: 7codebook for CBR-->
                     <tr>
                         <td>7</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00047/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p103_00693/CBR_Codebook_07/recons.wav" controls type="audio/wav">
                         </td>
                         <td>6.56</td>
-                        <td>10.45</td>
+                        <td>9.66</td>
                         <td>4.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p103_00047/level_4.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p103_00693/level_4.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00047/level_4.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p103_00693/level_4.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>5.16</td>
-                        <td>10.8</td>
+                        <td>3.99</td>
+                        <td>9.66</td>
                     </tr>
                 </tbody>
             </table>
@@ -2747,19 +2747,19 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00260/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p104_00465/noisy_spec.png" alt="Noisy spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p105_00260/noisy_spec.png" alt="Noisy spectrogram">
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00260/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p104_00465/clean_spec.png" alt="Clean spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p105_00260/clean_spec.png" alt="Clean spectrogram">
                     </td>
                 </tr>
                 <tr>
@@ -2784,73 +2784,73 @@
                     <tr>
                         <td>1</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p104_00465/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00260/CBR_Codebook_01/recons.wav" controls type="audio/wav">
                         </td>
                         <td>0.94</td>
-                        <td>-0.26</td>
+                        <td>0.31</td>
                         <td>0.5</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p104_00465/level_0.50/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00260/level_0.50/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p104_00465/level_0.50/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00260/level_0.50/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>2.19</td>
-                        <td>6.68</td>
+                        <td>2.61</td>
+                        <td>5.87</td>
                     </tr>
                     <!-- 1-st: 3codebook for CBR-->
                     <tr>
                         <td>3</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p104_00465/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00260/CBR_Codebook_03/recons.wav" controls type="audio/wav">
                         </td>
                         <td>2.81</td>
-                        <td>5.84</td>
+                        <td>5.78</td>
                         <td>1.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p104_00465/level_1.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00260/level_1.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p104_00465/level_1.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00260/level_1.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>3.46</td>
-                        <td>9.29</td>
+                        <td>4.45</td>
+                        <td>8.26</td>
                     </tr>
                     <!-- 2-nd: 5codebook for CBR-->
                     <tr>
                         <td>5</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p104_00465/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00260/CBR_Codebook_05/recons.wav" controls type="audio/wav">
                         </td>
                         <td>4.69</td>
-                        <td>8.2</td>
+                        <td>8.13</td>
                         <td>2.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p104_00465/level_2.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00260/level_2.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p104_00465/level_2.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00260/level_2.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>4.25</td>
-                        <td>9.74</td>
+                        <td>5.71</td>
+                        <td>8.87</td>
                     </tr>
                     <!-- 3-rd: 7codebook for CBR-->
                     <tr>
                         <td>7</td>
                         <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p104_00465/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00260/CBR_Codebook_07/recons.wav" controls type="audio/wav">
                         </td>
                         <td>6.56</td>
-                        <td>9.51</td>
+                        <td>9.42</td>
                         <td>4.0</td>
                         <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p104_00465/level_4.00/imp_map.png" alt="Impmap Image">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00260/level_4.00/imp_map.png" alt="Impmap Image">
                         </td>
                         <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p104_00465/level_4.00/recons.wav" controls type="audio/wav">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00260/level_4.00/recons.wav" controls type="audio/wav">
                         </td>
-                        <td>4.73</td>
-                        <td>9.86</td>
+                        <td>6.29</td>
+                        <td>8.97</td>
                     </tr>
                 </tbody>
             </table>
@@ -2868,249 +2868,7 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p105_00301/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p105_00301/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00301/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>1.85</td>
-                        <td>0.5</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00301/level_0.50/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00301/level_0.50/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.09</td>
-                        <td>7.68</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00301/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.81</td>
-                        <td>7.94</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00301/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00301/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>3.27</td>
-                        <td>9.42</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00301/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>4.69</td>
-                        <td>9.67</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00301/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00301/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>4.54</td>
-                        <td>10.32</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00301/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>6.56</td>
-                        <td>10.88</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00301/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00301/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>5.14</td>
-                        <td>10.54</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <h3 class="sample-title-sub">Sample 8</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p105_00393/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p105_00393/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00393/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>2.12</td>
-                        <td>0.5</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00393/level_0.50/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00393/level_0.50/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>1.55</td>
-                        <td>2.74</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00393/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.81</td>
-                        <td>4.09</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00393/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00393/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.07</td>
-                        <td>3.32</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00393/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>4.69</td>
-                        <td>4.84</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00393/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00393/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.85</td>
-                        <td>3.88</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00393/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>6.56</td>
-                        <td>5.26</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p105_00393/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00393/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>3.44</td>
-                        <td>4.07</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
-        <h3 class="sample-title-sub">Sample 9</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00660/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3118,7 +2876,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00660/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3219,7 +2977,7 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 10</h3>
+        <h3 class="sample-title-sub">Sample 8</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -3231,7 +2989,7 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00784/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3239,7 +2997,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00784/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3340,7 +3098,7 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 11</h3>
+        <h3 class="sample-title-sub">Sample 9</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -3352,7 +3110,128 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00884/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p105_00884/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p105_00884/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p105_00884/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00884/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>5.45</td>
+                        <td>0.5</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00884/level_0.50/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00884/level_0.50/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.9</td>
+                        <td>8.87</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00884/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.81</td>
+                        <td>9.62</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00884/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00884/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.81</td>
+                        <td>10.68</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00884/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.69</td>
+                        <td>11.07</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00884/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00884/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>3.72</td>
+                        <td>11.57</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p105_00884/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>6.56</td>
+                        <td>11.99</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p105_00884/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p105_00884/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.14</td>
+                        <td>11.72</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h3 class="sample-title-sub">Sample 10</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p106_00199/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3360,7 +3239,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p106_00199/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3461,7 +3340,7 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 12</h3>
+        <h3 class="sample-title-sub">Sample 11</h3>
         <div class="table-wrapper">
             <table>
                 <thead>
@@ -3473,7 +3352,7 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p106_00399/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3481,7 +3360,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p106_00399/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3582,6 +3461,127 @@
             </table>
         </div>
         
+        <h3 class="sample-title-sub">Sample 12</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p106_00502/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p106_00502/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p106_00502/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p106_00502/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p106_00502/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>-1.01</td>
+                        <td>0.5</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p106_00502/level_0.50/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p106_00502/level_0.50/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.38</td>
+                        <td>9.79</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p106_00502/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.81</td>
+                        <td>7.91</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p106_00502/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p106_00502/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>3.87</td>
+                        <td>12.29</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p106_00502/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.69</td>
+                        <td>10.32</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p106_00502/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p106_00502/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.79</td>
+                        <td>12.75</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p106_00502/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>6.56</td>
+                        <td>11.86</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p106_00502/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p106_00502/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>5.38</td>
+                        <td>12.85</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
         <h3 class="sample-title-sub">Sample 13</h3>
         <div class="table-wrapper">
             <table>
@@ -3594,7 +3594,128 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p107_00132/noisy.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p107_00132/noisy_spec.png" alt="Noisy spectrogram">
+                    </td>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p107_00132/clean.wav" controls type="audio/wav">
+                        </audio>
+                    </td>
+                    <td colspan="3" class="spectrogram">
+                        <img src="static/samples/CBR_feat_denoise_48k/p107_00132/clean_spec.png" alt="Clean spectrogram">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="4">CBR</th>
+                    <th colspan="5">VBR</th>
+                </tr>
+                <tr>
+                    <th>$N_q$</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                    <th>Level $l$</th>
+                    <th>Imp. map</th>
+                    <th>Est.</th>
+                    <th>kbps</th>
+                    <th>SI-SDR</th>
+                </tr>
+                </thead>
+                <!-- Table body: we make 4 rows. -->
+                <tbody>
+                    <!-- 0-th: 1codebook for CBR-->
+                    <tr>
+                        <td>1</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00132/CBR_Codebook_01/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>0.94</td>
+                        <td>4.81</td>
+                        <td>0.5</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p107_00132/level_0.50/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00132/level_0.50/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>1.8</td>
+                        <td>7.11</td>
+                    </tr>
+                    <!-- 1-st: 3codebook for CBR-->
+                    <tr>
+                        <td>3</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00132/CBR_Codebook_03/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.81</td>
+                        <td>8.02</td>
+                        <td>1.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p107_00132/level_1.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00132/level_1.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>2.59</td>
+                        <td>8.11</td>
+                    </tr>
+                    <!-- 2-nd: 5codebook for CBR-->
+                    <tr>
+                        <td>5</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00132/CBR_Codebook_05/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.69</td>
+                        <td>9.28</td>
+                        <td>2.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p107_00132/level_2.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00132/level_2.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>3.53</td>
+                        <td>8.55</td>
+                    </tr>
+                    <!-- 3-rd: 7codebook for CBR-->
+                    <tr>
+                        <td>7</td>
+                        <td class="audio-box">
+                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00132/CBR_Codebook_07/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>6.56</td>
+                        <td>9.95</td>
+                        <td>4.0</td>
+                        <td class="impmap">
+                            <img src="static/samples/VBR_feat_denoise_48k/p107_00132/level_4.00/imp_map.png" alt="Impmap Image">
+                        </td>
+                        <td class="audio-box">
+                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00132/level_4.00/recons.wav" controls type="audio/wav">
+                        </td>
+                        <td>4.17</td>
+                        <td>8.73</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <h3 class="sample-title-sub">Sample 14</h3>
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="4">Noisy input</th>
+                    <th colspan="4">Clean speech</th>
+                </tr>
+                <tr>
+                    <td class="audio-box">
+                        <audio oncontextmenu="return false;" controls name="media">
+                            <source src="static/samples/CBR_feat_denoise_48k/p107_00528/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3602,7 +3723,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p107_00528/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3703,127 +3824,6 @@
             </table>
         </div>
         
-        <h3 class="sample-title-sub">Sample 14</h3>
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                <tr>
-                    <th rowspan="2"></th>
-                    <th colspan="4">Noisy input</th>
-                    <th colspan="4">Clean speech</th>
-                </tr>
-                <tr>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p107_00625/noisy_spec.png" alt="Noisy spectrogram">
-                    </td>
-                    <td class="audio-box">
-                        <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
-                        </audio>
-                    </td>
-                    <td colspan="3" class="spectrogram">
-                        <img src="static/samples/CBR_feat_denoise_48k/p107_00625/clean_spec.png" alt="Clean spectrogram">
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="4">CBR</th>
-                    <th colspan="5">VBR</th>
-                </tr>
-                <tr>
-                    <th>$N_q$</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                    <th>Level $l$</th>
-                    <th>Imp. map</th>
-                    <th>Est.</th>
-                    <th>kbps</th>
-                    <th>SI-SDR</th>
-                </tr>
-                </thead>
-                <!-- Table body: we make 4 rows. -->
-                <tbody>
-                    <!-- 0-th: 1codebook for CBR-->
-                    <tr>
-                        <td>1</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00625/CBR_Codebook_01/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>0.94</td>
-                        <td>5.64</td>
-                        <td>0.5</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p107_00625/level_0.50/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00625/level_0.50/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.33</td>
-                        <td>10.95</td>
-                    </tr>
-                    <!-- 1-st: 3codebook for CBR-->
-                    <tr>
-                        <td>3</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00625/CBR_Codebook_03/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>2.81</td>
-                        <td>10.67</td>
-                        <td>1.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p107_00625/level_1.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00625/level_1.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>3.86</td>
-                        <td>12.87</td>
-                    </tr>
-                    <!-- 2-nd: 5codebook for CBR-->
-                    <tr>
-                        <td>5</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00625/CBR_Codebook_05/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>4.69</td>
-                        <td>12.65</td>
-                        <td>2.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p107_00625/level_2.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00625/level_2.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>5.32</td>
-                        <td>13.7</td>
-                    </tr>
-                    <!-- 3-rd: 7codebook for CBR-->
-                    <tr>
-                        <td>7</td>
-                        <td class="audio-box">
-                            <audio src="static/samples/CBR_feat_denoise_48k/p107_00625/CBR_Codebook_07/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>6.56</td>
-                        <td>13.99</td>
-                        <td>4.0</td>
-                        <td class="impmap">
-                            <img src="static/samples/VBR_feat_denoise_48k/p107_00625/level_4.00/imp_map.png" alt="Impmap Image">
-                        </td>
-                        <td class="audio-box">
-                            <audio src="static/samples/VBR_feat_denoise_48k/p107_00625/level_4.00/recons.wav" controls type="audio/wav">
-                        </td>
-                        <td>6.22</td>
-                        <td>13.89</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        
         <h3 class="sample-title-sub">Sample 15</h3>
         <div class="table-wrapper">
             <table>
@@ -3836,7 +3836,7 @@
                 <tr>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p107_00715/noisy.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
@@ -3844,7 +3844,7 @@
                     </td>
                     <td class="audio-box">
                         <audio oncontextmenu="return false;" controls name="media">
-                            <source src="" controls type="audio/wav">
+                            <source src="static/samples/CBR_feat_denoise_48k/p107_00715/clean.wav" controls type="audio/wav">
                         </audio>
                     </td>
                     <td colspan="3" class="spectrogram">
